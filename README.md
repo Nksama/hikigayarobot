@@ -5,11 +5,11 @@
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
 
-Can be found on telegram as [SenkuRobot](https://t.me/SenkuRobot).
+Can be found on telegram as [Hikigaya](https://t.me/hikigaya_robot).
 
-The Support group can be reached out to at [Senku Support](https://t.me/SenkuSupport), where you can ask for help about [SenkuRobot](https://t.me/SenkuRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [hikigaya Support](https://t.me/hikigayasupport), where you can ask for help about [SenkuRobot](https://t.me/SenkuRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [Senku Updates](https://t.me/SenkuUpdates) 
+
 
 ## How to setup/deploy.
 
