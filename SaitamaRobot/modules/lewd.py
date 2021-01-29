@@ -4,9 +4,9 @@ import nekos
 import requests
 from PIL import Image
 from telegram import ParseMode
-from AkenoHimejimabot import dispatcher, updater
-import AkenoHimejimabot.modules.sql.nsfw_sql as sql
-from AkenoHimejimabot.modules.log_channel import gloggable
+from hikigaya_robot import dispatcher, updater
+import hikigaya_robot.modules.sql.nsfw_sql as sql
+from hikigaya_robot.modules.log_channel import gloggable
 from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CommandHandler, run_async, CallbackContext
