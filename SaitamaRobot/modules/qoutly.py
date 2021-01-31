@@ -390,6 +390,3 @@ async def _(event):
     await event.client.send_file(event.chat_id, "sticker.webp", reply_to=event.reply_to_msg_id)
     os.remove('sticker.webp')
 
-__help__ = """
-/q - reply to an test message 
-"""
