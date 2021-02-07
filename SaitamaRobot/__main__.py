@@ -1,13 +1,14 @@
 import importlib
 import time
-import re
-from sys import argv
-from typing import Optional
 import get
 # here i will try to search for series name darling in the franxx so
 series_name = "darling in the franxx"
 series_data = get.watchsearch('darling in the franxx')
 print(series_data)
+import re
+from sys import argv
+from typing import Optional
+
 
 from SaitamaRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK, pbot,
