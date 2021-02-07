@@ -1,10 +1,5 @@
 import importlib
 import time
-import get
-# here i will try to search for series name darling in the franxx so
-series_name = "darling in the franxx"
-series_data = get.watchsearch('darling in the franxx')
-print(series_data)
 import re
 from sys import argv
 from typing import Optional
