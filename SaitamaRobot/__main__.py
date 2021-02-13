@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
                      [
                         InlineKeyboardButton(
                              text=" ❤️ Source Code ",
-                             url="https://github.com/Nksama/SenkuRobot")
+                             url="https://github.com/Nksama/hikigaya")
                     
                     ]]))
     else:
