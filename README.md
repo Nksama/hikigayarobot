@@ -180,4 +180,4 @@ Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (wil
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [hikigay support](https://t.me/hikigayasupport) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [hikigaya support](https://t.me/hikigayasupport) or simply submit a pull request on the readme.
