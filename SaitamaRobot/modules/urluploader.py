@@ -8,7 +8,7 @@ import aiohttp
 from telethon import events
 
 from SaitamaRobot import telethn as bot
-from SaitamaRobot.modules.urluploader import download_file
+from SaitamaRobot.modules.upload import download_file
 from SaitamaRobot.utils.uputils import humanbytes, progress
 
 DOWNLOADPATH = "Downloads/"
