@@ -52,15 +52,18 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
+Hi *{}*, my name is *{}*! 
+━━━━━━━━━━━━━━━━━━━━━━━
 I am an Anime themed group management bot.
 Build by weebs for weebs, I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
+━━━━━━━━━━━━━━━━━━━━━━━
+*Maintained by* : [Ihsan•イサン](t.me/RxyMX)
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm HIKIGAYA & I help admins to manage their groups! Have a look at the following for an idea of some of \
+I'm Norn & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -78,12 +81,12 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/ab20e874217adfabe42df.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/0031a7eadab404ec555e4.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There are two ways of supporting him; [Trakteer](trakteer.id/Scroxy), or [Ihsan•イサン](t.me/RxyMX)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -201,17 +204,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
+                            text=" 🌟 Add Me To Your Group 🌟 ",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" 🔔 support ",
-                             url="https://t.me/hikigayasupport")
+                             text=" 🔔 Anime Group Indo ",
+                             url="https://t.me/animegrupindo")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" ✨ Help ",
-                            url="https://t.me/hikigaya_robot?start=help"),
+                            url="https://t.me/NornRobot?start=help"),
                          
                      ],
                      [
