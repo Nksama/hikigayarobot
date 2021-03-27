@@ -1,15 +1,15 @@
 {
-      "name": "hikigaya",
+      "name": "NornRobot",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Senku"
+         "Norn"
       ],   
-   "repository": "https://github.com/Nksama/hikigayarobot",
-   "logo": "https://telegra.ph/file/993f1fbb29e2b0fc1a860.jpg",
+   "repository": "https://github.com/Scroxy-X/NornRobot",
+   "logo": "https://telegra.ph/file/702302bec83bac08d31d0.jpg",
    "addons": [
     {
          "options": {
@@ -52,26 +52,26 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "825664681"
+         "value": "870471128"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "nk_guy"
+         "value": "RxyMX"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "MyAwesomeSupportGroupGoesHere"
+         "value": "animegrupindo"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001423964132"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001423964132"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -124,12 +124,12 @@
       "WEBHOOK": {
          "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
          "required": false,
-         "value": ""
+         "value": "ANYTHING"
       },
       "PORT": {
          "description": "Port to use for your webhooks. Better leave this as it is on heroku",
          "required": false,
-         "value": ""
+         "value": "5000"
       },
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
@@ -139,7 +139,7 @@
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
          "required": false,
-         "value": "cleaner rss connection"
+         "value": ""
       }, 
       "BL_CHATS": {
          "description": "List of chats you want blacklisted.",
@@ -148,16 +148,16 @@
       },
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
-         "value": "True"
+         "value": "False"
       },
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://trakteer.id/Scroxy"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
-         "value": "True"
+         "value": "False"
       },
       "AI_API_KEY": {
       "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
