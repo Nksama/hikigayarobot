@@ -32,6 +32,16 @@ def lyrics(bot: Bot, update: Update, args):
                 caption="Message length exceeded max limit! Sending as a text file.")
         else:
             msg.reply_text(reply)
+
+__help__ = """
+Want to get the lyrics of your favorite songs straight from the app? This module is perfect for that!
+*Available commands:*
+ - /lyrics <song>: returns the lyrics of that song.
+ You can either enter just the song name or both the artist and song name.
+"""
+
+
+__mod_name__ = "Lyrics"
                 
         
 
