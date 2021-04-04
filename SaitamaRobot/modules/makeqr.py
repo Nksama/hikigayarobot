@@ -182,7 +182,5 @@ size=200x200&charset-source=UTF-8&charset-target=UTF-8\
   
   
   """
-    
-   
-__mod_name__ = "qr code"
+ __mod_name__ = "qrcode"
     
