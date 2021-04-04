@@ -9,7 +9,9 @@ __help__ = f"""
 
 • `/getqr <reply to image>`*:* Read QR code
 • `/makeqr <reply to text>`*:* Make QR code
-  
+ 
+*Images*
+• `/img` <image name>
 
 """
 
