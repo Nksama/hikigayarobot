@@ -173,3 +173,16 @@ size=200x200&charset-source=UTF-8&charset-target=UTF-8\
     duration = (datetime.now() - start).seconds
     await qrcode.reply("Created QRCode in {} seconds".format(duration))
     await sleep(5)
+    
+    
+    __help__ = """
+    
+  • /getqr <reply to qr code>`*:* Read QR code
+  • /makeqr <reply to text>`*:* Make QR code
+  
+  
+  """
+    
+   
+__mod_name__ = "qr code"
+    
