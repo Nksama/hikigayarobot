@@ -34,6 +34,7 @@ fontTools
 gtts
 pyrogram
 redis
+bing_image_downloader
 nekos.py
 tswift
 pyowm
