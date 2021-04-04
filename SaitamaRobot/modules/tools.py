@@ -13,8 +13,11 @@ __help__ = f"""
 *Images*
 • `/img` <image name>
 
-*IMDB
+*IMDB*
 • `/imdb <movie name>
-"""
 
+*Quotly*
+• `/q - make quotes like quotly bot`
+
+"""
 __mod_name__ = "Tools"
