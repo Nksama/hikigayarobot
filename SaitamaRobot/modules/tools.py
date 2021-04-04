@@ -13,6 +13,8 @@ __help__ = f"""
 *Images*
 • `/img` <image name>
 
+*IMDB
+• `/imdb <movie name>
 """
 
 __mod_name__ = "Tools"
