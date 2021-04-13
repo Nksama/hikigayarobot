@@ -201,25 +201,16 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
+                            text="Add me to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
-                         InlineKeyboardButton(
-                             text=" 🔔 support ",
-                             url="https://t.me/hikigayasupport")
-                     ],
+                    ],
                      [
                         InlineKeyboardButton(
-                            text=" ✨ Help ",
+                            text=" 🌐 Help ",
                             url="https://t.me/hikigaya_robot?start=help"),
                          
-                     ],
-                     [
-                        InlineKeyboardButton(
-                             text=" ❤️ Source Code ",
-                             url="https://github.com/Nksama/hikigayarobot")
-                    
-                    ]]))
+                     ]]))
     else:
         update.effective_message.reply_text(
             "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
